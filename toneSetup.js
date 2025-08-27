@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let polySynth = new Tone.PolySynth(Tone.Synth, {
   oscillator: {
-    type: "fatsawtooth",
+    type: "fatsquare",
     count: 3,
     spread: 10,
   },
